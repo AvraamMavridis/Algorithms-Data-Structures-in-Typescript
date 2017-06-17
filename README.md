@@ -1,5 +1,7 @@
 # JS Engineer Questions
 
+## JS
+
 ####  **Explain Event Delegation**
 
 DOM event delegation is a mechanism of responding to events via a single common event listener on the parent rather than having listeners on every child, because of event "bubbling".
@@ -62,3 +64,36 @@ function findNodeByPath(nodeTree, path){
   return elem;
 }
 ```
+
+### Implement `debounce`
+
+```
+function debounce(fn, time, context = this) {
+    let timeout;
+    let callbackArgs;
+
+    return function() {
+       callbackArgs = arguments;
+       clearTimeout(timeout);
+       timeout = setTimeout(fn.bind(context, ...callbackArgs),time);
+    }
+}
+```
+
+
+## CSS
+
+### What's the difference between inline and block elements?
+
+A block-level element always starts on a new line and takes up the full width available
+An inline element does not start on a new line and only takes up as much width as necessary.
+
+## HTML
+
+### Create new DOM Element
+
+`let div = document.createElement('div')`
+
+### Append child
+
+`document.appendChild(div)`
