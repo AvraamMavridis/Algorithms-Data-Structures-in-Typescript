@@ -85,8 +85,22 @@ function debounce(fn, time, context = this) {
 
 ### What's the difference between inline and block elements?
 
-A block-level element always starts on a new line and takes up the full width available
-An inline element does not start on a new line and only takes up as much width as necessary.
+- Inline elements:
+
+Respect left & right margins and padding, but not top & bottom.
+Cannot have a width and height set.
+Allow other elements to sit to their left and right.
+see very important side notes on this here.
+
+- Block elements:
+
+Respect all of those, force a line break after the block element
+
+- Inline-block elements:
+
+Allow other elements to sit to their left and right, respect top & bottom margins and padding. Respect height and width.
+
+`inline` element can start on one line and wrap onto the following line, while an `inline-block` element will wrap as a whole.
 
 ## HTML
 
@@ -97,3 +111,47 @@ An inline element does not start on a new line and only takes up as much width a
 ### Append child
 
 `document.appendChild(div)`
+
+### Style element
+
+`element.style.color = "#ff3300";`
+
+### Getting and Setting the HTML Elements
+
+```
+// get the HTML of "element"
+var content = element.innerHTML;
+
+// set the HTML of "otherElement"
+otherElement.innterHTML = content;
+```
+
+### Getting and Setting the Class Name
+
+```
+// get the class name of "element"
+var cName = element.className;
+
+// set the class name of "otherElement"
+otherElement.className = cName;
+```
+
+### Adding/Removing class
+
+```
+// add a class to the element
+element.classList.add('cool');
+
+// remove a class from the element
+element.classList.remove('cool');
+```
+
+### Getting and Setting the HTML Elements
+
+```
+// get the HTML of "element"
+var content = element.innerHTML;
+
+// set the HTML of "otherElement"
+otherElement.innterHTML = content;
+```
