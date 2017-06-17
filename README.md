@@ -1,6 +1,4 @@
-# FullStack Engineer Questions
-
-## **JS**
+# JS Engineer Questions
 
 ####  **Explain Event Delegation**
 
@@ -28,3 +26,39 @@ When a function is invoked, an activation record, otherwise known as an executio
 ### Explain why the following doesn't work as an IIFE: `function foo(){ }()`;
 
 `function foo(){ }()` -> `(function foo(){ })()`
+
+### What is a potential pitfall with using typeof bar === "object" to determine if bar is an object? How can this pitfall be avoided?
+
+`typeof null` is also `object`
+`typeof []` is also `object`
+
+To avoid it we can do `toString(obj) === '[object Object]';
+
+### Given two identical DOM tree structures, A and B, and a node from A, find the corresponding node in B
+
+Starting from the given node in tree A we find the path.
+
+```
+function getPath(elem){
+   let currElem = elem;
+   let path = [];
+   while(currElem && currElem.parentNode){
+     let index = Array.from(currElem.parentNode.childNodes).indexOf(currElem);
+     path.push(index)
+     currElem = currElem.parentNode;
+   }
+   return path;
+}
+```
+
+```
+function findNodeByPath(nodeTree, path){
+  let _path = [].concat(path);
+  let elem = nodeTree;
+  while(_path.length){
+    let index = path.pop();
+    elem = Array.from(elem.childNodes)[index];
+  }
+  return elem;
+}
+```
