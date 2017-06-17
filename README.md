@@ -24,3 +24,7 @@ When a function is invoked, an activation record, otherwise known as an executio
 `var person = Person() // person is the result of the function`
 
 `var person = new Person() // person is newly created object`
+
+### Explain why the following doesn't work as an IIFE: `function foo(){ }()`;
+
+`function foo(){ }()` -> `(function foo(){ })()`
