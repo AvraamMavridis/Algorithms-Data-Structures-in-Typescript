@@ -155,3 +155,25 @@ var content = element.innerHTML;
 // set the HTML of "otherElement"
 otherElement.innterHTML = content;
 ```
+
+### Children of a Given Element
+
+`elementNodeReference.childNodes`
+
+### Next Sibling of a Given Element
+
+`node.nextSibling`
+
+### What is the difference between children and childNodes?
+
+`.children` is a property of an Element. Only Elements have children, and these children are all of type Element.
+
+However `.childNodes` is a property of Node. `.childNodes` can contain any node.
+
+```
+var el = document.createElement("div");
+el.textContent = "foo"
+el.childNodes.length === 1; // TextNode is a node child
+el.children.length === 0; // no Element children
+```
+
