@@ -289,5 +289,31 @@ Examples of such techniques :
 - `document.write` is effectively writing serialised text which is not the way the DOM works conceptually, and is an easy way to create bugs (.innerHTML has the same problem)
 - It serializes the rendering engine to pause until said external script is loaded, which could take much longer than an internal script.
 
+#### What's the difference between feature detection, feature inference, and using the UA string.
+
+Feature detection checks directly a feature for existence, e.g.:
+
+```js
+if (window.XMLHttpRequest) {
+    new XMLHttpRequest();
+}
+```
+
+Feature inference checks for a feature just like feature detection, but uses another function because it assumes it will also exist, e.g.:
+
+```js
+if (document.getElementsByTagName) {
+    element = document.getElementById(id);
+}
+```
+
+UA-string check reffers to checking the user-agent name for feature detection. It should be avoided.
+
+```js
+if (navigator.userAgent.indexOf("MSIE 7") > -1){
+    //do something
+}
+```
+
 
 
