@@ -34,7 +34,7 @@ When a function is invoked, an activation record, otherwise known as an executio
 `typeof null` is also `object`
 `typeof []` is also `object`
 
-To avoid it we can do `toString(obj) === '[object Object]';
+To avoid it we can do `toString.call(obj) === '[object Object]';
 
 #### Given two identical DOM tree structures, A and B, and a node from A, find the corresponding node in B
 
@@ -79,6 +79,19 @@ function debounce(fn, time, context = this) {
     }
 }
 ```
+
+### Describe the difference between `cookies`, `sessionStorage` and `localStorage`.
+
+`sessionStorage` (as the name suggests) is only available for the duration of the browser session (and is deleted when the tab or window is closed) - it does however survive page reloads. If the data you are storing needs to be available on an ongoing basis then `localStorage` is preferable to `sessionStorage`.
+
+`Cookies` stores data that has to be sent back to the server with subsequent requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side (normally from server-side).
+
+As `cookies` are used for authentication purposes and persistence of user data, all `cookies` valid for a page are sent from the browser to the server for every request to the same domain - this includes the original page request, any subsequent Ajax requests, all images, stylesheets, scripts and fonts. For this reason `cookies` should not be used to store large amounts of information.
+
+`localStorage`, `sessionStorage` and `cookies` are all subject to "same-origin" rules which means browsers should prevent access to the data except from the domain that set the information to start with.
+
+`Cookies` are primarily for server-side reading (can also be read on client-side), `localStorage` and `sessionStorage` can only be read on client-side.
+
 
 ### JS Frameworks etc
 
