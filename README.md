@@ -281,4 +281,13 @@ Examples of such techniques :
 - Prioritizing visible content (or above the fold rendering) where you include only the minimum css/content/scripts necessary for the amount of page that would be rendered in the users browser first to display as quickly as possible, you can then use deferred javascript (domready/load) to load in other resources and content.
 
 
+#### Why is `document.write` considered a “bad practice”?
+
+- `document.write` (henceforth DW) does not work in XHTML
+- `document.write` executed after the page has finished loading will overwrite the page, or write a new page, or not work
+- `document.write` executes where encountered: it cannot inject at a given node point
+- `document.write` is effectively writing serialised text which is not the way the DOM works conceptually, and is an easy way to create bugs (.innerHTML has the same problem)
+- It serializes the rendering engine to pause until said external script is loaded, which could take much longer than an internal script.
+
+
 
