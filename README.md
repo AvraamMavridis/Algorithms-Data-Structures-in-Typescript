@@ -117,6 +117,18 @@ In the old days of the web, pages were typically written in two versions: One fo
 
 There are now three modes used by the layout engines in web browsers: quirks mode, almost standards mode, and full standards mode. In quirks mode, layout emulates nonstandard behavior in Navigator 4 and Internet Explorer 5. This is essential in order to support websites that were built before the widespread adoption of web standards. In full standards mode, the behavior is (hopefully) the behavior described by the HTML and CSS specifications. In almost standards mode, there are only a very small number of quirks implemented.
 
+#### What's the difference between HTML and XHTML?
+
+The Extensible Hypertext Markup Language, or XHTML, is a markup language that has the same depth of expression as HTML, but also conforms to XML syntax.
+
+#### Are there any problems with serving pages as application/xhtml+xml?
+
+IE < 8 will show a download dialog for the pages, instead of rendering them properly.
+
+#### How do you serve a page with content in multiple languages?
+
+The `lang="en"` or `xml:lang="en"` HTML lang attribute can be used to declare the language of a Web page or a portion of a Web page. This is meant to assist search engines and browsers. Also metadata and `Content-Language` HTTP header can be used.
+
 #### Create new DOM Element
 
 `let div = document.createElement('div')`
