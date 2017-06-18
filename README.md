@@ -2,11 +2,11 @@
 
 ## JS
 
-#####  **Explain Event Delegation**
+####  **Explain Event Delegation**
 
 DOM event delegation is a mechanism of responding to events via a single common event listener on the parent rather than having listeners on every child, because of event "bubbling".
 
-#### **Explain how this works in JavaScript**
+#### **Explain how `this` works in JavaScript**
 
 `this` binding has nothing to do with where a function is declared, but has instead everything to do with the manner in which the function is called.
 
@@ -85,14 +85,13 @@ function debounce(fn, time, context = this) {
 
 ## CSS
 
-#### What's the difference between inline and block elements?
+#### What's the difference between `inline`, `inline-block` and `block` elements?
 
 - Inline elements:
 
 Respect left & right margins and padding, but not top & bottom.
 Cannot have a width and height set.
 Allow other elements to sit to their left and right.
-see very important side notes on this here.
 
 - Block elements:
 
@@ -128,6 +127,15 @@ IE < 8 will show a download dialog for the pages, instead of rendering them prop
 #### How do you serve a page with content in multiple languages?
 
 The `lang="en"` or `xml:lang="en"` HTML lang attribute can be used to declare the language of a Web page or a portion of a Web page. This is meant to assist search engines and browsers. Also metadata and `Content-Language` HTTP header can be used.
+
+#### What kind of things must you be wary of when design or developing for multilingual sites?
+
+- `hreflang` attr in link. The attribute signals to search engines that there is an alternative version of the webpage in another language.
+e.g. If your site is `www.example.com` in english and you have a spanish version `<link rel="alternate" hreflang="es" href="http://es.example.com/" />`
+
+- `dir` attribute specifying the text direction. e.g. `<p dir="rtl">Write this text right-to-left!</p>`
+
+- `<meta charset='UTF-8'>`
 
 #### Create new DOM Element
 
