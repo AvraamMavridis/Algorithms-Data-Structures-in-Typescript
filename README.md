@@ -137,6 +137,33 @@ e.g. If your site is `www.example.com` in english and you have a spanish version
 
 - `<meta charset='UTF-8'>`
 
+#### What are data- attributes good for?
+
+`data-*` attributes allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes, extra properties on DOM, or `Node.setUserData()`.
+
+- Example
+
+```html
+<article
+  id="electriccars"
+  data-columns="3"
+  data-index-number="12314"
+  data-parent="cars">
+</article>
+```
+
+```js
+article.dataset.columns // "3"
+article.dataset.indexNumber // "12314"
+article.dataset.parent // "cars"
+```
+
+```css
+article::before {
+  content: attr(data-parent);
+}
+```
+
 #### Create new DOM Element
 
 `let div = document.createElement('div')`
