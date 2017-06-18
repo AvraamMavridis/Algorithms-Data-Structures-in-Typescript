@@ -80,18 +80,33 @@ function debounce(fn, time, context = this) {
 }
 ```
 
-### Describe the difference between `cookies`, `sessionStorage` and `localStorage`.
+#### Why is using `for…in` with array iteration a bad idea?
 
-`sessionStorage` (as the name suggests) is only available for the duration of the browser session (and is deleted when the tab or window is closed) - it does however survive page reloads. If the data you are storing needs to be available on an ongoing basis then `localStorage` is preferable to `sessionStorage`.
+`for...in` iterates over the array object, so any property attach to array prototype will be included in the iteration.
+e.g.
 
-`Cookies` stores data that has to be sent back to the server with subsequent requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side (normally from server-side).
+```js
+Array.prototype.something = 'Something';
+var a = [1, 2];
 
-As `cookies` are used for authentication purposes and persistence of user data, all `cookies` valid for a page are sent from the browser to the server for every request to the same domain - this includes the original page request, any subsequent Ajax requests, all images, stylesheets, scripts and fonts. For this reason `cookies` should not be used to store large amounts of information.
+for(var k in a){
+  console.log(k)
+};
 
-`localStorage`, `sessionStorage` and `cookies` are all subject to "same-origin" rules which means browsers should prevent access to the data except from the domain that set the information to start with.
+// 1
+// 2
+// something
+```
 
-`Cookies` are primarily for server-side reading (can also be read on client-side), `localStorage` and `sessionStorage` can only be read on client-side.
+#### What does “use strict” do in JavaScript, and what is the reasoning behind it?
 
+Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context. This strict context prevents certain actions from being taken and throws more exceptions.
+
+Strict mode helps out in a couple ways:
+
+- It catches some common coding bloopers, throwing exceptions.
+- It prevents, or throws errors, when relatively "unsafe" actions are taken (such as gaining access to the global object).
+- It disables features that are confusing or poorly thought out.
 
 ### JS Frameworks etc
 
@@ -314,6 +329,18 @@ if (navigator.userAgent.indexOf("MSIE 7") > -1){
     //do something
 }
 ```
+
+### Describe the difference between `cookies`, `sessionStorage` and `localStorage`.
+
+`sessionStorage` (as the name suggests) is only available for the duration of the browser session (and is deleted when the tab or window is closed) - it does however survive page reloads. If the data you are storing needs to be available on an ongoing basis then `localStorage` is preferable to `sessionStorage`.
+
+`Cookies` stores data that has to be sent back to the server with subsequent requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side (normally from server-side).
+
+As `cookies` are used for authentication purposes and persistence of user data, all `cookies` valid for a page are sent from the browser to the server for every request to the same domain - this includes the original page request, any subsequent Ajax requests, all images, stylesheets, scripts and fonts. For this reason `cookies` should not be used to store large amounts of information.
+
+`localStorage`, `sessionStorage` and `cookies` are all subject to "same-origin" rules which means browsers should prevent access to the data except from the domain that set the information to start with.
+
+`Cookies` are primarily for server-side reading (can also be read on client-side), `localStorage` and `sessionStorage` can only be read on client-side.
 
 
 
