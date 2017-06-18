@@ -2,11 +2,11 @@
 
 ## JS
 
-####  **Explain Event Delegation**
+#####  **Explain Event Delegation**
 
 DOM event delegation is a mechanism of responding to events via a single common event listener on the parent rather than having listeners on every child, because of event "bubbling".
 
-### **Explain how this works in JavaScript**
+#### **Explain how this works in JavaScript**
 
 `this` binding has nothing to do with where a function is declared, but has instead everything to do with the manner in which the function is called.
 
@@ -14,7 +14,7 @@ When a function is invoked, an activation record, otherwise known as an executio
 
 `this` is actually a binding that is made when a function is invoked, and what it references is determined entirely by the call-site where the function is called.
 
-### Difference between: `function Person(){}`, `var person = Person()` and `var person = new Person()`?
+#### Difference between: `function Person(){}`, `var person = Person()` and `var person = new Person()`?
 
 1. a brand new object is created (aka, constructed) out of thin air
 2. the newly constructed object is [[Prototype]]-linked
@@ -25,22 +25,22 @@ When a function is invoked, an activation record, otherwise known as an executio
 
 `var person = new Person() // person is newly created object`
 
-### Explain why the following doesn't work as an IIFE: `function foo(){ }()`;
+#### Explain why the following doesn't work as an IIFE: `function foo(){ }()`;
 
 `function foo(){ }()` -> `(function foo(){ })()`
 
-### What is a potential pitfall with using typeof bar === "object" to determine if bar is an object? How can this pitfall be avoided?
+#### What is a potential pitfall with using typeof bar === "object" to determine if bar is an object? How can this pitfall be avoided?
 
 `typeof null` is also `object`
 `typeof []` is also `object`
 
 To avoid it we can do `toString(obj) === '[object Object]';
 
-### Given two identical DOM tree structures, A and B, and a node from A, find the corresponding node in B
+#### Given two identical DOM tree structures, A and B, and a node from A, find the corresponding node in B
 
 Starting from the given node in tree A we find the path.
 
-```
+```js
 function getPath(elem){
    let currElem = elem;
    let path = [];
@@ -53,7 +53,7 @@ function getPath(elem){
 }
 ```
 
-```
+```js
 function findNodeByPath(nodeTree, path){
   let _path = [].concat(path);
   let elem = nodeTree;
@@ -65,9 +65,9 @@ function findNodeByPath(nodeTree, path){
 }
 ```
 
-### Implement `debounce`
+#### Implement `debounce`
 
-```
+```js
 function debounce(fn, time, context = this) {
     let timeout;
     let callbackArgs;
@@ -80,10 +80,12 @@ function debounce(fn, time, context = this) {
 }
 ```
 
+### JS Frameworks etc
+
 
 ## CSS
 
-### What's the difference between inline and block elements?
+#### What's the difference between inline and block elements?
 
 - Inline elements:
 
@@ -104,19 +106,30 @@ Allow other elements to sit to their left and right, respect top & bottom margin
 
 ## HTML
 
-### Create new DOM Element
+#### What does a doctype do?
+
+It is an instruction to the web browser about what version of the markup language the page is written in.
+DOCTYPEs are required for legacy reasons. When omitted, browsers tend to use a different rendering mode that is incompatible with some specifications. Including the DOCTYPE in a document ensures that the browser makes a best-effort attempt at following the relevant specifications.
+
+#### What's the difference between full standards mode, almost standards mode and quirks mode?
+
+In the old days of the web, pages were typically written in two versions: One for Netscape Navigator, and one for Microsoft Internet Explorer. When the web standards were made at W3C, browsers could not just start using them, as doing so would break most existing sites on the web. Browsers therefore introduced two modes to treat new standards compliant sites differently from old legacy sites.
+
+There are now three modes used by the layout engines in web browsers: quirks mode, almost standards mode, and full standards mode. In quirks mode, layout emulates nonstandard behavior in Navigator 4 and Internet Explorer 5. This is essential in order to support websites that were built before the widespread adoption of web standards. In full standards mode, the behavior is (hopefully) the behavior described by the HTML and CSS specifications. In almost standards mode, there are only a very small number of quirks implemented.
+
+#### Create new DOM Element
 
 `let div = document.createElement('div')`
 
-### Append child
+#### Append child
 
 `document.appendChild(div)`
 
-### Style element
+#### Style element
 
 `element.style.color = "#ff3300";`
 
-### Getting and Setting the HTML Elements
+#### Getting and Setting the HTML Elements
 
 ```
 // get the HTML of "element"
@@ -126,7 +139,7 @@ var content = element.innerHTML;
 otherElement.innterHTML = content;
 ```
 
-### Getting and Setting the Class Name
+#### Getting and Setting the Class Name
 
 ```
 // get the class name of "element"
@@ -136,7 +149,7 @@ var cName = element.className;
 otherElement.className = cName;
 ```
 
-### Adding/Removing class
+#### Adding/Removing class
 
 ```
 // add a class to the element
@@ -146,7 +159,7 @@ element.classList.add('cool');
 element.classList.remove('cool');
 ```
 
-### Getting and Setting the HTML Elements
+#### Getting and Setting the HTML Elements
 
 ```
 // get the HTML of "element"
@@ -156,15 +169,15 @@ var content = element.innerHTML;
 otherElement.innterHTML = content;
 ```
 
-### Children of a Given Element
+#### Children of a Given Element
 
 `elementNodeReference.childNodes`
 
-### Next Sibling of a Given Element
+#### Next Sibling of a Given Element
 
 `node.nextSibling`
 
-### What is the difference between children and childNodes?
+#### What is the difference between children and childNodes?
 
 `.children` is a property of an Element. Only Elements have children, and these children are all of type Element.
 
@@ -176,4 +189,8 @@ el.textContent = "foo"
 el.childNodes.length === 1; // TextNode is a node child
 el.children.length === 0; // no Element children
 ```
+
+#### What is Shadow DOM?
+
+
 
