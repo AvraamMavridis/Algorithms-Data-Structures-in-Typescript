@@ -10,6 +10,39 @@ A closure is an inner function that has access to the outer (enclosing) function
 
 DOM event delegation is a mechanism of responding to events via a single common event listener on the parent rather than having listeners on every child, because of event "bubbling".
 
+#### What is the difference between `var` and `let`?
+
+- `var` has function scope
+- `let` has block scope
+
+Variables declared with `var` get hoisted (at the top of the function)
+
+#### Explain the term `Prototypal inheritance`
+
+In JavaScript, objects have a special hidden property [[Prototype]] (as named in the specification), that is either null or references another object. That object is called “a prototype”:
+
+<img src="./object-prototype.png" alt="Object Prototype" style="width: 200px;"/>
+
+That [[Prototype]] has a “magical” meaning. When we want to read a property from object, and it’s missing, JavaScript automatically takes it from the prototype. In programming, such thing is called “prototypal inheritance”.
+
+The property [[Prototype]] is internal and hidden, but there are many ways to set it.
+
+One of them is to use __proto__,
+
+
+```js
+let animal = {
+  eats: true
+};
+let rabbit = {
+  jumps: true
+};
+
+rabbit.__proto__ = animal;
+```
+
+Please note that __proto__ is not the same as [[Prototype]]. That’s a getter/setter for it.
+
 #### **Explain how `this` works in JavaScript**
 
 `this` binding has nothing to do with where a function is declared, but has instead everything to do with the manner in which the function is called.
