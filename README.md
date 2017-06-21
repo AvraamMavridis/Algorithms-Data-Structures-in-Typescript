@@ -245,6 +245,14 @@ article::before {
 }
 ```
 
+#### Describe the difference between `<script>`, `<script async>` and `<script defer>`
+
+1. Without async or defer, browser will run your script immediately, before rendering the elements that's below your script tag.
+2. With async (asynchronous), browser will continue to load the HTML page and render it while the browser load and execute the script at the same time.
+3. With defer, browser will run your script when the page finished parsing. (not necessary finishing downloading all image files. This is good.)
+
+<img src="./async_defer.png" alt="Drawing" style="width: 400px;"/>
+
 #### Create new DOM Element
 
 `let div = document.createElement('div')`
