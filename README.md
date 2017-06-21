@@ -155,6 +155,10 @@ Allow other elements to sit to their left and right, respect top & bottom margin
 
 `inline` element can start on one line and wrap onto the following line, while an `inline-block` element will wrap as a whole.
 
+#### What is specificity in CSS?
+
+Specificity is a mechanism within the CSS cascade that aids conflict resolution. The concept of specificity states that when two or more declarations that apply to the same element, and set the same property, have the same importance and origin, the declaration with the most specific selector will take precedence.
+
 ## HTML
 
 #### What does a doctype do?
@@ -359,7 +363,7 @@ if (navigator.userAgent.indexOf("MSIE 7") > -1){
 }
 ```
 
-### Describe the difference between `cookies`, `sessionStorage` and `localStorage`.
+#### Describe the difference between `cookies`, `sessionStorage` and `localStorage`.
 
 `sessionStorage` (as the name suggests) is only available for the duration of the browser session (and is deleted when the tab or window is closed) - it does however survive page reloads. If the data you are storing needs to be available on an ongoing basis then `localStorage` is preferable to `sessionStorage`.
 
