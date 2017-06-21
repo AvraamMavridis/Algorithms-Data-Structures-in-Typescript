@@ -80,6 +80,30 @@ function debounce(fn, time, context = this) {
 }
 ```
 
+### Exercice 1
+
+Given a string of words (x), you need to find the highest scoring word.
+
+Each letter of a word scores points according to it's position in the alphabet. a=1, z=26 and everything inbetween.
+
+You need to return the highest scoring word as a string.
+
+If two words score the same, return the word that appears earliest in the original string.
+
+All letters will be lower case and all inputs will be valid.
+
+```js
+function high(x){
+  const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+  const words = x.split(' ');
+  let l = words.map(word => word.split(''))
+  l = l.map(arr => arr.reduce((prev,char) => prev + alphabet.indexOf(char),0))
+  let max = Math.max(...l);
+  return x.split(' ')[l.indexOf(max)];
+}
+```
+
+
 #### Why is using `for…in` with array iteration a bad idea?
 
 `for...in` iterates over the array object, so any property attach to array prototype will be included in the iteration.
