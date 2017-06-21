@@ -375,5 +375,15 @@ As `cookies` are used for authentication purposes and persistence of user data, 
 
 `Cookies` are primarily for server-side reading (can also be read on client-side), `localStorage` and `sessionStorage` can only be read on client-side.
 
+#### What is carbage collection?
 
+This process of clearing from the memory variables (strings, objects, and other kinds of values) when they can’t be reached anymore.
+
+#### What are the consequences of compiling code to WebAssembly?
+
+When you’re compiling C or other languages down to WebAssembly, the tool that you use will add in some helper code to your WebAssembly. For example, it would add code that does the encoding and decoding bytes. This code is called a runtime environment. The runtime environment will help handle some of the stuff that the JS engine does for JS.
+
+#### What are the trade-offs of using a language like javascript that has automatic memory management?
+
+Automatic memory management means that the developer doesn't have to care much about freeing memory on the right time, which means that is less likely a human-error to introduce bugs or security holes. On the other hand, the automatic memory management adds some overhead that can lead to performance issues.
 
