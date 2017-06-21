@@ -2,6 +2,10 @@
 
 ## JS
 
+#### What is a closure?
+
+A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function's variables, and it has access to the global variables.
+
 ####  **Explain Event Delegation**
 
 DOM event delegation is a mechanism of responding to events via a single common event listener on the parent rather than having listeners on every child, because of event "bubbling".
@@ -15,6 +19,8 @@ When a function is invoked, an activation record, otherwise known as an executio
 `this` is actually a binding that is made when a function is invoked, and what it references is determined entirely by the call-site where the function is called.
 
 #### Difference between: `function Person(){}`, `var person = Person()` and `var person = new Person()`?
+
+With `new`:
 
 1. a brand new object is created (aka, constructed) out of thin air
 2. the newly constructed object is [[Prototype]]-linked
@@ -158,6 +164,25 @@ Allow other elements to sit to their left and right, respect top & bottom margin
 #### What is specificity in CSS?
 
 Specificity is a mechanism within the CSS cascade that aids conflict resolution. The concept of specificity states that when two or more declarations that apply to the same element, and set the same property, have the same importance and origin, the declaration with the most specific selector will take precedence.
+
+
+#### What is the difference between `:nth-child` and `:nth-of-type`
+
+The nth-child pseudo-class refers to the "Nth matched child element", meaning if you have a structure as follows:
+
+```html
+<div>
+    <h1>Hello</h1>
+
+    <p>Paragraph</p>
+
+    <p>Target</p>
+</div>
+```
+
+Then `p:nth-child(2)` will select the second child which is also a p (namely, the p with "Paragraph").
+`p:nth-of-type` will select the second matched p element, (namely, our Target p).
+
 
 ## HTML
 
