@@ -124,6 +124,7 @@ const findMax = function(root){
 * Find the parent of a value in the tree
 *
 * @param {object} root - The root of the tree
+* @param {number} value - The value to insert
 */
 const findParentOfToBeDeletedNode = function(root, value){
  let node = root;
@@ -135,6 +136,12 @@ const findParentOfToBeDeletedNode = function(root, value){
  return node;
 }
 
+/**
+* Delete a node from the tree
+*
+* @param {object} root - The root of the tree
+* @param {number} value - The value to insert
+*/
 const deleteNode = function(root, value){
   let parent = findParentOfToBeDeletedNode(root, value);
   let node = find(root, value);

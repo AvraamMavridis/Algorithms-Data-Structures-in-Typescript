@@ -1,5 +1,9 @@
 # JS Engineer Questions
 
+### Algorithms & Data Structures
+
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/binarytree.md">Binary Tree</a>
+
 ## JS
 
 #### What is a closure?
