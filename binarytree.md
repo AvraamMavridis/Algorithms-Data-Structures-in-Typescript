@@ -1,8 +1,10 @@
 ### Write functions to:
 
-1. Find the path to a node in a balanced tree
+1. Find the path to a node in a binary tree
 2. Insert a new node to the tree
 3. Traverse the tree
+4. Find min/max
+5. Delete node
 
 <img src="./binary_search_tree.png" alt="Tree" style="width: 300px;"/>
 
@@ -20,9 +22,14 @@ const value3 = { value: 3, left: value1, right: value6 };
 const value10 = { value: 10, left: undefined, right: value14 };
 const root = { value: 8, left: value3, right: value10 };
 
-
+/**
+* Find the path from root to a value
+*
+* @param {object} root - The root of the tree
+* @param {number} value - The value to search for
+*/
 const findPath = function(root, value){
-  if(!root || !root.value) throw Error('Tree is empty');
+  if(!root || !root.value) return [];
   this.path = this.path || {};
   this.path[`${value}`] = this.path[`${value}`] || [];
   this.path[`${value}`].push(root.value);
@@ -37,19 +44,31 @@ const findPath = function(root, value){
   return this.path[`${value}`];
 }
 
+/**
+* Find a value in the tree
+*
+* @param {object} root - The root of the tree
+* @param {number} value - The value to search for
+*/
 const find = function(root, value){
-  if(!root || !root.value) throw Error('Tree is empty');
+  if(!root || !root.value) return undefined;
 
   if(root.value === value) {
     return root;
   } else {
-    if(value > root.value) find(root.right, value);
-    else if (value < root.value) fin(root.left, value);
+    if(value > root.value) return find(root.right, value);
+    else if (value < root.value) return find(root.left, value);
   }
 
   return root;
 }
 
+/**
+* Insert a value in the tree
+*
+* @param {object} root - The root of the tree
+* @param {number} value - The value to insert
+*/
 const insert = function(root, value){
   if (value > root.value){
     if(root.right === undefined){
@@ -67,7 +86,12 @@ const insert = function(root, value){
   return root;
 }
 
-
+/**
+* Traverse the tree and process it through a callback
+*
+* @param {object} root - The root of the tree
+* @param {function} cb
+*/
 const traverse = function(root, cb){
   if(root && root.value){
     cb(root.value);
@@ -76,18 +100,33 @@ const traverse = function(root, cb){
   }
 }
 
+/**
+* Find the minimum value in the tree
+*
+* @param {object} root - The root of the tree
+*/
 const findMin = function(root){
   if(root.left) return findMin(root.left)
   else return root.value;
 }
 
+/**
+* Find the maximum value in the tree
+*
+* @param {object} root - The root of the tree
+*/
 const findMax = function(root){
   if(root.right) return findMax(root.right)
   else return root.value;
 }
 
+/**
+* Find the parent of a value in the tree
+*
+* @param {object} root - The root of the tree
+*/
 const findParentOfToBeDeletedNode = function(root, value){
- let node;
+ let node = root;
  const cb = (root) => {
    if(root && ((root.right && root.right.value === value)||(root.left && root.left.value === value)))
    node = root;
@@ -96,20 +135,9 @@ const findParentOfToBeDeletedNode = function(root, value){
  return node;
 }
 
-const findNode = function(root, value){
-  let node;
-  const cb = (root) => {
-    if(root.value === value){
-      node = root;
-    }
-  }
- traverse(root, cb)
- return node;
-}
-
 const deleteNode = function(root, value){
   let parent = findParentOfToBeDeletedNode(root, value);
-  let node = findNode(root, value);
+  let node = find(root, value);
 
   // leaves
   if(node.left === undefined && node.right === undefined){
