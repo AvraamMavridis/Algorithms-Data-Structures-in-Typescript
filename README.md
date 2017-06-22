@@ -4,6 +4,14 @@
 
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/binarytree.md">Binary Tree</a>
 
+### Exercises
+
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise1.md">1. Apple stocks</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise2.md">2. Simple range</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise3.md">3. String paths to object</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise4.md">4. Max difference</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise5.md">5. Deep Assignment</a>
+
 ## JS
 
 #### What is a closure?
