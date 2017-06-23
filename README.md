@@ -15,26 +15,29 @@
 
 ### Questions
 
-[link text](#abcde)
+1. [What is a closure?](#closure)
+2. [Explain Event Delegation](#delegation)
+3. [What is the difference between `var` and `let`](#varlet)
+4. [Explain the term `Prototypal inheritance`](#protoinh)
 
 ## JS
 
-#### <a name="abcde">What is a closure?</a>
+#### <a name="closure">What is a closure?</a>
 
 A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function's variables, and it has access to the global variables.
 
-####  **Explain Event Delegation**
+#### <a name="delegation">Explain Event Delegation</a>
 
 DOM event delegation is a mechanism of responding to events via a single common event listener on the parent rather than having listeners on every child, because of event "bubbling".
 
-#### What is the difference between `var` and `let`?
+#### <a name="varlet">What is the difference between `var` and `let`?</a>
 
 - `var` has function scope
 - `let` has block scope
 
 Variables declared with `var` get hoisted (at the top of the function)
 
-#### Explain the term `Prototypal inheritance`
+#### <a name="protoinh">Explain the term `Prototypal inheritance`</a>
 
 In JavaScript, objects have a special hidden property [[Prototype]] (as named in the specification), that is either null or references another object. That object is called “a prototype”:
 
