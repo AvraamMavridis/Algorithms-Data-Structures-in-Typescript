@@ -5,6 +5,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/binarytree.md">Binary Tree</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/insertionSort.md">Insertion Sort</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/insertionSort.md">Selection  Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/insertionSort.md">Merge  Sort</a>
 
 ### Exercises
 
