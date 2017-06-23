@@ -11,6 +11,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise3.md">3. String paths to object</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise4.md">4. Max difference</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise5.md">5. Deep Assignment</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise5.md">5. Ranking Poker Hands</a>
 
 ## JS
 
