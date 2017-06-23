@@ -13,9 +13,13 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise5.md">5. Deep Assignment</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise5.md">5. Ranking Poker Hands</a>
 
+### Questions
+
+[link text](#abcde)
+
 ## JS
 
-#### What is a closure?
+#### <a name="abcde">What is a closure?</a>
 
 A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function's variables, and it has access to the global variables.
 
