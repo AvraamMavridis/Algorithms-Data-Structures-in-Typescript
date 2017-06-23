@@ -1,0 +1,5 @@
+### What is loop invariant?
+
+A loop invariant is a condition [among program variables] that is necessarily true immediately before and immediately after each iteration of a loop. (Note that this says nothing about its truth or falsity part way through an iteration.)
+
+By itself, a loop invariant doesn't do much. However, given an appropriate invariant, it can be used to help prove the correctness of an algorithm. The simple example has to do with sorting. For example, let your loop invariant be something like, at the start of the loop, the first i entries of this array are sorted. If you can prove that this is indeed a loop invariant (i.e. that it holds before and after every loop iteration), you can use this to prove the correctness of a sorting algorithm: at the termination of the loop, the loop invariant is still satisfied, and the counter i is the length of the array. Therefore, the first i entries are sorted means the entire array is sorted.

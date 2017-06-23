@@ -3,6 +3,8 @@
 ### Algorithms & Data Structures
 
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/binarytree.md">Binary Tree</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/insertionSort.md">Insertion Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/insertionSort.md">Selection  Sort</a>
 
 ### Exercises
 
@@ -14,6 +16,10 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise6.md">6. Ranking Poker Hands</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise7.md">7. Identical Node in symetrical DOM trees</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise8.md">8. Implement debounce</a>
+
+### General Terms
+
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/loopInvariant.md"> What is `loop invariant` ?</a>
 
 ### Questions
 
