@@ -11,7 +11,9 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise3.md">3. String paths to object</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise4.md">4. Max difference</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise5.md">5. Deep Assignment</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise5.md">5. Ranking Poker Hands</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise6.md">6. Ranking Poker Hands</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise7.md">7. Identical Node in symetrical DOM trees</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise8.md">8. Implement debounce</a>
 
 ### Questions
 
@@ -94,50 +96,6 @@ With `new`:
 `typeof []` is also `object`
 
 To avoid it we can do `toString.call(obj) === '[object Object]';
-
-#### Given two identical DOM tree structures, A and B, and a node from A, find the corresponding node in B
-
-Starting from the given node in tree A we find the path.
-
-```js
-function getPath(elem){
-   let currElem = elem;
-   let path = [];
-   while(currElem && currElem.parentNode){
-     let index = Array.from(currElem.parentNode.childNodes).indexOf(currElem);
-     path.push(index)
-     currElem = currElem.parentNode;
-   }
-   return path;
-}
-```
-
-```js
-function findNodeByPath(nodeTree, path){
-  let _path = [].concat(path);
-  let elem = nodeTree;
-  while(_path.length){
-    let index = path.pop();
-    elem = Array.from(elem.childNodes)[index];
-  }
-  return elem;
-}
-```
-
-#### Implement `debounce`
-
-```js
-function debounce(fn, time, context = this) {
-    let timeout;
-    let callbackArgs;
-
-    return function() {
-       callbackArgs = arguments;
-       clearTimeout(timeout);
-       timeout = setTimeout(fn.bind(context, ...callbackArgs),time);
-    }
-}
-```
 
 ### Exercice 1
 
