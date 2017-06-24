@@ -23,6 +23,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise12.md">12. Compress string</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise13.md">13. MxN matrix transform</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise14.md">14. Remove duplicates from linked list</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise15.md">15. o Partition a linked list</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
