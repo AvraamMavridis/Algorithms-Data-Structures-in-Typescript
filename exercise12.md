@@ -29,5 +29,3 @@ console.assert(compressString('avraam') === 'avraam', 'Implementation is wrong')
 console.assert(compressString('aavraam') === 'aavraam', 'Implementation is wrong');
 console.assert(compressString('aaavraam') === 'a3vra2m', 'Implementation is wrong3');
 console.assert(compressString('avraaam') === 'avra3m', 'Implementation is wrong');
-
-```

@@ -21,6 +21,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise10.md">10. Unique chars</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise11.md">11. String permutation check</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise12.md">12. Compress string</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise13.md">13. MxN matrix transform</a>
 
 ### General Terms
 
