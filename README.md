@@ -17,6 +17,8 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise6.md">6. Ranking Poker Hands</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise7.md">7. Identical Node in symetrical DOM trees</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise8.md">8. Implement debounce</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise9.md">9. How many are smaller than me?</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise10.md">10. Unique chars</a>
 
 ### General Terms
 
