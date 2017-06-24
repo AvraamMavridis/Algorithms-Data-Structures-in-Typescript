@@ -21,8 +21,7 @@ var compressString = function(str){
   }
 
   let newStr = newStringArr.join('');
-  if(newStr.length === str.length) return str;
-  return newStringArr = newStringArr.join('');
+  return newStr.length === str.length ? str : newStr;
 }
 
 
