@@ -23,6 +23,8 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise12.md">12. Compress string</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise13.md">13. MxN matrix transform</a>
 
+<a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
+
 ### General Terms
 
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/loopInvariant.md"> What is `loop invariant` ?</a>
