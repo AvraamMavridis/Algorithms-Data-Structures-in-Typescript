@@ -18,7 +18,7 @@ const setZeros = function(arr, value) {
   let rowIndexes = [];
   let columnIndexes = [];
 
-  // Keep the indexes of the [row,colum] where a zero has been found
+  // Keep the indexes of the [row,colum] where the value is greater
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr[i].length; j++) {
       if (arr[i][j] > 90) {
@@ -31,12 +31,12 @@ const setZeros = function(arr, value) {
   rowIndexes = rowIndexes.filter((val, i) => rowIndexes.indexOf(val) === i)
   columnIndexes = columnIndexes.filter((val, i) => columnIndexes.indexOf(val) === i)
 
-  // Turn full rows to zeros
+  // Turn rows' values equal to the passing value
   for (let j = 0; j < rowIndexes.length; j++) {
     arr[rowIndexes[j]] = arr[rowIndexes[j]].map(() => value)
   }
 
-  // Turn columns to zeros
+  // Turn columns' values equal to the passing value
   for (let i = 0; i < arr.length; i++) {
     if (rowIndexes.includes(i)) continue; //Optionally ignore row that is already zero
     for (let j = 0; j < columnIndexes.length; j++) {
