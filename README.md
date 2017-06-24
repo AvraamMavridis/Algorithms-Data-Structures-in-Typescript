@@ -20,6 +20,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise9.md">9. How many are smaller than me?</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise10.md">10. Unique chars</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise11.md">11. String permutation check</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise12.md">12. Compress string</a>
 
 ### General Terms
 
