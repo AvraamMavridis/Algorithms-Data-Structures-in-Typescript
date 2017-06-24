@@ -6,10 +6,10 @@ Given two strings, write a method to decide if one is a permutation of the other
 
 ```js
 var permuteStrings = function(str1, str2){
+  if(str1.length !== str2.length) return false;
+
   let chars1 = str1.split('');
   let chars2 = str2.split('');
-
-  if(chars1.length !== chars2.length) return false;
 
   const checkfunc = (sum, charval) => sum + charval.charCodeAt(0);
   chars1 = chars1.reduce(checkfunc,0);
