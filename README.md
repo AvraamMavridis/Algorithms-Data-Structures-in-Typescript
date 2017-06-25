@@ -29,7 +29,8 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise18.md">18. Set of stacks</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise19.md">19. Queue using two Stacks</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise20.md">20. Sorted Stack</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise21.md">21. Animal Shelter</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise21.md">21. Animal Shelter Queue</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise22.md">22. Balanced Tree</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
