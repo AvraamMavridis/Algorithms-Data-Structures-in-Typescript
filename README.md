@@ -9,28 +9,28 @@
 
 ### Exercises
 
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise1.md">1. Apple stocks</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise2.md">2. Simple range</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise3.md">3. String paths to object</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise4.md">4. Max difference</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise5.md">5. Deep Assignment</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise6.md">6. Ranking Poker Hands</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise7.md">7. Identical Node in symetrical DOM trees</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise8.md">8. Implement debounce</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise9.md">9. How many are smaller than me?</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise10.md">10. Unique chars</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise11.md">11. String permutation check</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise12.md">12. Compress string</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise13.md">13. MxN matrix transform</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise14.md">14. Remove duplicates from linked list</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise15.md">15. Partition a linked list</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise16.md">16. Sum numbers of two linked lists and create a new one</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise17.md">17. Stack with push, pop, getMin that have complexity 0(1)</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise18.md">18. Set of stacks</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise19.md">19. Queue using two Stacks</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise20.md">20. Sorted Stack</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise21.md">21. Animal Shelter Queue</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise22.md">22. Balanced Tree</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise1.md">1. Apple stocks</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise2.md">2. Simple range</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise3.md">3. String paths to object</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise4.md">4. Max difference</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise5.md">5. Deep Assignment</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise6.md">6. Ranking Poker Hands</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise7.md">7. Identical Node in symetrical DOM trees</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise8.md">8. Implement debounce</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise9.md">9. How many are smaller than me?</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise10.md">10. Unique chars</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise11.md">11. String permutation check</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise12.md">12. Compress string</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise13.md">13. MxN matrix transform</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise14.md">14. Remove duplicates from linked list</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise15.md">15. Partition a linked list</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise16.md">16. Sum numbers of two linked lists and create a new one</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise17.md">17. Stack with push, pop, getMin that have complexity 0(1)</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise18.md">18. Set of stacks</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise19.md">19. Queue using two Stacks</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise20.md">20. Sorted Stack</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise21.md">21. Animal Shelter Queue</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise22.md">22. Balanced Tree</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
