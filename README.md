@@ -25,6 +25,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise14.md">14. Remove duplicates from linked list</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise15.md">15. Partition a linked list</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise16.md">16. Sum numbers of two linked lists and create a new one</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise17.md">17. Stack with push, pop, getMin that have complexity 0(1)</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
