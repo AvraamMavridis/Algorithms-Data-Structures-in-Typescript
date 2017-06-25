@@ -27,6 +27,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise16.md">16. Sum numbers of two linked lists and create a new one</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise17.md">17. Stack with push, pop, getMin that have complexity 0(1)</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise17.md">18. Set of stacks</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercise17.md">19. Queue using two Stacks</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
