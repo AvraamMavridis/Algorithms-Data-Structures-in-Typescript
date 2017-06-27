@@ -23,14 +23,14 @@ The singleton pattern is one of the simplest design patterns: it involves only o
 const Singleton = (function() {
   let instance;
 
-  let init = function(value) {
+  let init = function(value: number) {
     this.instanceID = value;
     this.getInstance = () => instance;
     return this;
   };
 
 
-  return function(value) {
+  return function(value: number) {
     if (instance) return instance;
     instance = init(value);
     return instance;
