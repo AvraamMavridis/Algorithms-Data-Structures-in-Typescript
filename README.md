@@ -1,5 +1,9 @@
 # JS Engineer Questions
 
+### Design Patterns
+
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/patterns/Singleton.md">Singleton</a>
+
 ### Algorithms & Data Structures
 
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/binarytree.md">Binary Tree</a>
