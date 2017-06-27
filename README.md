@@ -2,10 +2,11 @@
 
 ### Algorithms & Data Structures
 
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/binarytree.md">Binary Tree</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/insertionSort.md">Insertion Sort</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/selectionSort.md">Selection  Sort</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/mergeSort.md">Merge  Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/binarytree.md">Binary Tree</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/insertionSort.md">Insertion Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/selectionSort.md">Selection  Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/mergeSort.md">Merge  Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/bfs-dfs.md">BFS - DFS</a>
 
 ### Exercises
 
