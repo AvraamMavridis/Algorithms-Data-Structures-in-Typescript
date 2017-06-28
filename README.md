@@ -41,7 +41,8 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise23.md">23. Numbers with a Given Sum</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise24.md">24. Exponential</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise25.md">25. Palindrome</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise25.md">26. Array Permutation</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise26.md">26. Array Permutation</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise27.md">27. Calendar Conflicts</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
