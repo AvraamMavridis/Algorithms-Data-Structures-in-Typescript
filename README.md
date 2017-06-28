@@ -4,6 +4,7 @@
 
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/patterns/Singleton.md">Singleton</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/patterns/Factory.md">Factory</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/patterns/Builder.md">Builder</a>
 
 ### Algorithms & Data Structures
 
@@ -38,7 +39,9 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise21.md">21. Animal Shelter Queue</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise22.md">22. Balanced Tree</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise23.md">23. Numbers with a Given Sum</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise23.md">24. Exponential</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise24.md">24. Exponential</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise25.md">25. Palindrome</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise25.md">26. Array Permutation</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
