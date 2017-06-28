@@ -6,7 +6,7 @@
 4. Find min/max
 5. Delete node
 
-<img src="./binary_search_tree.png" alt="Tree" style="width: 300px;"/>
+<img src="../images/binary_search_tree.png" alt="Tree" style="width: 300px;"/>
 
 ### Solution
 
