@@ -1,67 +1,33 @@
 ## Exercise
 
-Given an array and a value, how to implement a function to remove all instances of that value in place and return the new length? The order of elements can be changed. It doesn't matter what you leave beyond the new length. (JS: Don't use `filter`)
+Given an array and a value, how to implement a function to move all instances of that value in the end of the array (in place, without using any other array)? The order of elements can be changed. It doesn't matter what you leave.
 
 ## Solution
 
 ```ts
-class Stack {
-  _stack: Array<any>;
-  /**
-  * Creates a Stack instance
-  */
-  constructor() {
-    this._stack = [];
+const array = [2, 2, 2, 3, 5, 6, 7, 8, 9, 2];
+
+const moveInstances = function(array: Array<number>, value: number) {
+  let i = 0;
+  let j = array.length - 1;
+
+  while (i < j) {
+    if (array[i] === value) {
+      if (array[j] !== value) {
+        [array[i], array[j]] = [array[j], array[i]];
+      } else {
+        j--;
+      }
+    } else {
+      i++;
+    }
   }
 
-  /**
-  * Push value to the stack
-  *
-  * @param {number} value
-  */
-  push(value) {
-    this._stack.push(value);
-    return this._stack;
-  }
-
-  /**
-  * Pop a value from the stack
-  */
-  pop() {
-    return this._stack.pop();
-  }
-
-  /**
-  * Check if the stack is empty
-  */
-  isEmpty() {
-    return this._stack.length === 0;
-  }
-}
-
-/**
- * List
- */
-const node5 = { value: 264, next: undefined };
-const node4 = { value: 964, next: node5 };
-const node3 = { value: 4, next: node4 };
-const node2 = { value: 64, next: node3 };
-const node1 = { value: 13, next: node2 };
-
-const printListFromTailToHead = function(root) {
-  let pointer = root;
-  const stack = new Stack();
-  stack.push(pointer);
-
-  while (pointer.next) {
-    stack.push(pointer.next);
-    pointer = pointer.next;
-  }
-
-  while (!stack.isEmpty()) {
-    console.log(stack.pop().value);
-  }
+  return array;
 };
 
-printListFromTailToHead(node1);
+console.assert(
+  moveInstances(array, 2).toString() === "9,8,7,3,5,6,2,2,2,2",
+  "Wrong implementation"
+);
 ```
