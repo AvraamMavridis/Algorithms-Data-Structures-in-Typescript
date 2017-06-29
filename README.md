@@ -13,7 +13,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/selectionSort.md">Selection  Sort</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/mergeSort.md">Merge  Sort</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/bfs-dfs.md">BFS - DFS</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/binarySearch.md">Binary Search</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/tree_traversal.md">Tree Traversals: In-Order, Pre-Order, Post-Order</a>
 
 ### Exercises
 
