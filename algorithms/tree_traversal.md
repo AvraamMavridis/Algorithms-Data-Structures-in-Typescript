@@ -1,6 +1,6 @@
 ## Tree Representation
 
-<img src="../images/tree2.jpg" alt="Drawing" style="width: 400px;"/>
+<img src="../images/tree2.jpg" alt="Drawing" style="height: 200px;"/>
 
 ```ts
 interface MyNode {
