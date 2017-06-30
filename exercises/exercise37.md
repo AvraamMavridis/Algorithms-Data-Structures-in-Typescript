@@ -44,7 +44,6 @@ class DoubleStack {
   }
 
   pop(stack: string){
-    console.log('>>>>', this._stacksLength);
     if(!this._array.length || !this._stacksLength[`stack${stack}`]){
       return `Stack ${stack} Underflows`;
     } else if (this._array.length && this._stacksLength[`stack${stack}`]){
