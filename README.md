@@ -54,6 +54,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise35.md">35. Implement a Stack using two Queues..</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise36.md">36. Fibonacci recursive, recursive with memoization, and iterative..</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise37.md">37. Two Stacks with one array</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise38.md">38. Stack using a single linked list</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
