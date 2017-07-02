@@ -59,7 +59,8 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise39.md">39. Queue using a single linked list</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise40.md">40. Simplify array with prime numbers</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise41.md">41. Find the turning number in an array.</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise41.md">42. Find the majority element in an array.</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise42.md">42. Find the majority element in an array.</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise43.md">43. Robot visits cells in a 2D matrix.</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
