@@ -12,6 +12,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/insertionSort.md">Insertion Sort</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/selectionSort.md">Selection  Sort</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/mergeSort.md">Merge  Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/countSort.md">Count  Sort</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/bfs-dfs.md">BFS - DFS</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/tree_traversal.md">Tree Traversals: In-Order, Pre-Order, Post-Order</a>
 
@@ -57,6 +58,8 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise38.md">38. Stack using a single linked list</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise39.md">39. Queue using a single linked list</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise40.md">40. Simplify array with prime numbers</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise41.md">41. Find the turning number in an array.</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise41.md">42. Find the majority element in an array.</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
