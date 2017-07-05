@@ -64,6 +64,7 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise43.md">43. Robot visits cells in a 2D matrix.</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise44.md">44. Find the nth Node in a single linked list traversing the list only once.</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise45.md">45. Given a binary tree how will you get its mirrored tree?</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise46.md">46. Check if a tree is symmetrical</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
