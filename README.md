@@ -71,6 +71,8 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise50.md">50. Check if an array can be the post-order traversal of a binary search tree.</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise51.md">51. Convert a binary search tree into a sorted double linked list.</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise52.md">52. Generate combinations of a given string.</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise53.md">53. Smallest possible sum.</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise54.md">54. Give an algorithm that returns true if a string contains properly nested and balanced parentheses, and false if otherwise.</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
