@@ -16,7 +16,7 @@ function findSmallest(numbers) {
     max = Math.max(...numbers);
     min = Math.min(...numbers);
   }
-  
+
   return numbers.reduce((sum, next) => {
     sum += next;
     return sum;

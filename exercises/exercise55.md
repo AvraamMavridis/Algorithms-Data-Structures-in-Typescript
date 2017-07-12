@@ -42,7 +42,7 @@ class Tree {
   }
 
   /**
-   * Add a node to the cart
+   * Add a node to the tree
    *
    * @param {MyNode} node
    * @param {MyNode} [root=this.root]
