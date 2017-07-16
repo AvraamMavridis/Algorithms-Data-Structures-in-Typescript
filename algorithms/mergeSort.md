@@ -7,7 +7,7 @@ Implemenent Merge Sort.
 
 ```js
 function merge(arr1, arr2){
-  let newArr = [], j, i;
+  let newArr = [];
   while(arr1.length && arr2.length){
     if(arr1[0] > arr2[0]){
       newArr.push(arr2.shift())

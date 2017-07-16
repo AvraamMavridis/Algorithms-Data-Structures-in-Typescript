@@ -79,6 +79,11 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise58.md">58. Bin Manager in O(n log n)</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise59.md">59. Min in a sequence in O(1)</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise60.md">60. Check if two trees are identical</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise61.md">61. Devide and Conquer to calculate the root of a number</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise62.md">62. Partition players in two unfairly teams in O(n log n)</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise63.md">63. Sort tuples in O(n) keeping their relative sorting</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise64.md">64. Find whether there exists a pair of elements, one from S1 and one from S2, that add up to x in O(n)</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise65.md">65. Find the k smallest elements of an unsorted set of n integers in O(n + k log n)</a>
 
 <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
 
