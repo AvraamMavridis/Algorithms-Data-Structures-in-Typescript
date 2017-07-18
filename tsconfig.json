@@ -1,0 +1,8 @@
+{
+  "target": "es7",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true
+}
+}
