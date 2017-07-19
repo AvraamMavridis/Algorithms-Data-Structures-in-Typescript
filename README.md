@@ -1,4 +1,4 @@
-# JS Engineer Questions
+# Algorithms, Data Structures and Design Patterns in Typescript.
 
 ### Design Patterns
 
