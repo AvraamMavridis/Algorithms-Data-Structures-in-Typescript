@@ -113,7 +113,6 @@ class Tree {
     let nodesToProcess : Array<number> = [0]
 
     while(nodesToProcess.length){
-      console.log(nodesToProcess, visitedNodes)
       let node = nodesToProcess.shift();
 
       // process the node if there is a callback
