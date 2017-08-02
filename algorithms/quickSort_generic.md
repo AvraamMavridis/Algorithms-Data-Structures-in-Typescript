@@ -106,5 +106,5 @@ console.log({unsorted: unsortedArray, sorted: sortedArray});
 
 Result:
 
-<img src="../images/generic_quicksort_output.jpg">
+<img src="../images/generic_quicksort_output.jpg"/>
 
