@@ -106,5 +106,5 @@ console.log({unsorted: unsortedArray, sorted: sortedArray});
 
 Result:
 
-![Output from sorting the Cat collection](images/generic_quicksort_output.jpg)
+![Output from sorting the Cat collection](../../images/generic_quicksort_output.jpg)
 
