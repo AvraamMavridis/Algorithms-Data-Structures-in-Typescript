@@ -90,4 +90,4 @@
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise64.md">64. Find whether there exists a pair of elements, one from S1 and one from S2, that add up to x in O(n)</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exercise65.md">65. Find the k smallest elements of an unsorted set of n integers in O(n + k log n)</a>
 
-<a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exerciseUtils.md">Various Utils helpful to generate test data</a>
+<a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/exercises/exerciseUtils.md">Various Utils helpful to generate test data</a>
