@@ -10,11 +10,11 @@
 
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/binarytree.md">Binary Tree</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/insertionSort.md">Insertion Sort</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/selectionSort.md">Selection  Sort</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/mergeSort.md">Merge  Sort</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/countSort.md">Count  Sort</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/quickSort.md">Quick  Sort</a> and <a href="algorithms/quickSort_generic.md">Quick Sort using TypeScript Generics</a>
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/radixSort.md">Radix  Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/selectionSort.md">Selection Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/mergeSort.md">Merge Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/countSort.md">Count Sort</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/quickSort.md">Quick Sort</a> and <a href="algorithms/quickSort_generic.md">Quick Sort using TypeScript Generics</a>
+- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/radixSort.md">Radix Sort</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/bfs-dfs.md">BFS - DFS</a>
 - <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/algorithms/tree_traversal.md">Tree Traversals: In-Order, Pre-Order, Post-Order</a>
 
