@@ -1,4 +1,4 @@
-## Exersice
+## Exercise
 
 Create nested object from multiple string paths
 

@@ -1,4 +1,4 @@
-## Exersice
+## Exercise
 
 For each of the following problems, give an algorithm that finds the desired numbers within the given amount of time. To keep your answers brief, feel free to use known algorithms as subroutines. For the example, S={6,13,19,3,8}, 19−3 maximizes the difference, while 8−6 minimizes the difference.
 
