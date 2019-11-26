@@ -1,6 +1,6 @@
 ### General Terms
 
-- <a href="https://github.com/AvraamMavridis/FE-questions-answers/blob/master/loopInvariant.md"> What is `loop invariant` ?</a>
+- [What is `loop invariant`?](loopInvariant.md)
 
 ### Questions
 
