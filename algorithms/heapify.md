@@ -1,4 +1,4 @@
-## Exersice
+## Exercise
 
 Create a maxHeap
 

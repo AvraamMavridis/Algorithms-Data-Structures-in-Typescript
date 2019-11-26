@@ -1,4 +1,4 @@
-## Exersice
+## Exercise
 
 Implemenent LSD (less-significant-bit) Radix Sort.
 
