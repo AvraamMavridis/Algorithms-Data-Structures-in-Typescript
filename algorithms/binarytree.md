@@ -103,7 +103,7 @@ const insert = function(root: MyNode, value: number): MyNode {
 */
 const traverse = function(root: MyNode, cb: Function) {
   if (root && root.value) {
-    cb(root.value);
+    cb(root);
     traverse(root.right, cb);
     traverse(root.left, cb);
   }
@@ -167,37 +167,41 @@ const deleteNode = function(root: MyNode, value: number) {
 
   // leaves
   if (node.left === undefined && node.right === undefined) {
-    if (parent.left.value === node.value) {
+    // node with no child
+    if (parent.left?.value === node.value) {
       parent.left = undefined;
-    } else if (parent.right.value === node.value) {
+    } else if (parent.right?.value === node.value) {
       parent.right = undefined;
     }
   } else if (node.left === undefined && node.right !== undefined) {
     // node with 1 child
-    parent.right = node.right;
+    if (parent.left?.value === node.value) {
+      parent.left = node.right;
+    } else if (parent.right?.value === node.value) {
+      parent.right = node.right;
+    }
   } else if (node.left !== undefined && node.right === undefined) {
     // node with 1 child
-    parent.left = node.left;
+    if (parent.left?.value === node.value) {
+      parent.left = node.left;
+    } else if (parent.right?.value === node.value) {
+      parent.right = node.left;
+    }
   } else if (node.left && node.right) {
     // node with 2 children
-    // find the min  in the subtree
+    // find the min in the subtree
     // and swap it with the value that would be deleted
-    let min = node.left.value;
-    let pointer = node;
+    let min = node.right.value;
+    let pointer = node.right;
     while (pointer) {
       min = pointer.value;
       pointer = pointer.left;
     }
-    node.value = min;
 
-    // Delete the dublicate
-    pointer = node;
-    while (pointer) {
-      if (pointer.left && pointer.left.value === min) {
-        pointer.left = undefined;
-      }
-      pointer = pointer.left;
-    }
+    // Delete the duplicate
+    deleteNode(node, min);
+
+    node.value = min;
   }
 };
 ```
