@@ -43,7 +43,7 @@ For the tree of the image the order should be:
 
 `8 -> 3 -> 1 -> 6 -> 4 -> 7 -> 10 -> 14 -> 13`
 
-#### Implementantation
+#### Implementation
 
 
 ```ts
