@@ -11,7 +11,7 @@ be a function that maps each symbol of the alphabet to a unique integer from 0 t
 α − 1.
 
 
-### Write a hash function for an array with lenght n. The values of the array is strings.
+### Write a hash function for an array with length n. The values of the array is strings.
 
 
 ```js

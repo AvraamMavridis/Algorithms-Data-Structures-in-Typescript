@@ -84,7 +84,7 @@ With `new`:
 
 To avoid it we can do `toString.call(obj) === '[object Object]';
 
-### Exercice 1
+### Exercise 1
 
 Given a string of words (x), you need to find the highest scoring word.
 
@@ -270,7 +270,7 @@ article::before {
 var content = element.innerHTML;
 
 // set the HTML of "otherElement"
-otherElement.innterHTML = content;
+otherElement.innerHTML = content;
 ```
 
 #### Getting and Setting the Class Name
@@ -300,7 +300,7 @@ element.classList.remove('cool');
 var content = element.innerHTML;
 
 // set the HTML of "otherElement"
-otherElement.innterHTML = content;
+otherElement.innerHTML = content;
 ```
 
 #### Children of a Given Element
